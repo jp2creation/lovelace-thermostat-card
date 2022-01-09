@@ -20,7 +20,7 @@ A simple thermostat implemented in CSS and SVG based on <a href="https://codepen
 +  Allow avoid the card background
 
 ## Preview
-![](https://bbs.hassbian.com/data/attachment/forum/202003/14/172544q3ajp7742cbo757h.gif)
+<img src="https://i.ibb.co/JCphYBk/light.jpg" height="245"><img src="https://i.ibb.co/qRRSSG7/dark.jpg" height="245">
 
 ## Update
 ### v1.3.01

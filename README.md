@@ -23,7 +23,8 @@ A simple thermostat implemented in CSS and SVG based on <a href="https://codepen
 ![](https://bbs.hassbian.com/data/attachment/forum/202003/14/172544q3ajp7742cbo757h.gif)
 
 ## Update
-### v1.3.0
+### v1.3.01
++ Color change with your theme (Dark or light)
 + fix icon
 + Fix the problem that the title blocks the arrow button [#16](https://github.com/fineemb/lovelace-thermostat-card/issues/16#issue-622934186)
 + Remove the small_i parameter and have done adaptive scaling

@@ -156,7 +156,7 @@ export function cssData(user) {
     user-select: none;
   
     --thermostat-off-fill: transparent;
-    --thermostat-path-color: rgba(255, 255, 255, 0.3);
+    --thermostat-path-color: var(--primary-color);
     --thermostat-path-active-color: rgba(255, 255, 255, 0.8);
     --thermostat-path-active-color-large: rgba(255, 255, 255, 1);
     --thermostat-text-color: var(--primary-color);

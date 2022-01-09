@@ -1,5 +1,5 @@
 <!--
- * @Author        : fineemb
+ * @Author        : fineemb modified by JP2Création
  * @Github        : https://github.com/fineemb
  * @Description   : 
  * @Date          : 2020-02-03 12:52:45
@@ -31,16 +31,16 @@ A simple thermostat implemented in CSS and SVG based on <a href="https://codepen
 Search for Thermostat Card
 ## Manual Installation
 1. Download `main.js` `thermostat_card.lib.js` `styles.js`
-1. Copy to `www\community\lovelace-thermostat-card`
+1. Copy to `www\community\lovelace-thermostat-card2`
 1. Add the following to your Lovelace resources
     ``` yaml
     resources:
-      - url: /hacsfiles/lovelace-thermostat-card/main.js
+      - url: /hacsfiles/lovelace-thermostat-card2/main.js
         type: module
     ```
 1. Add the following to your Lovelace config `views.cards` key
     ```yaml
-    - type: custom:thermostat-card
+    - type: custom:thermostat-card2
       entity: climate.gong_zuo_jian_kong_diao
       title: 工作间
     ```
@@ -50,7 +50,7 @@ Search for Thermostat Card
 
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
-| type | string | **Required** | `custom:thermostat-card`
+| type | string | **Required** | `custom:thermostat-card2`
 | entity | string | **Required** | The entity id of climate entity. Example: `climate.hvac`
 | title | string | optional | Card title
 | no_card | boolean | false | Set to true to avoid the card background and use the custom element in picture-elements.

@@ -141,7 +141,7 @@ export function cssData(user) {
   .dot_r{
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: var(--primary-color);
     border-radius: 50%;
     display: inline-block;
     opacity: 0.1;

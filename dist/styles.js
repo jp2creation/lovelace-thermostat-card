@@ -15,7 +15,7 @@ export function cssData(user) {
     --dry_color: #efbd07;
     --idle_color: #808080;
     --unknown_color: #bac;
-    --text-color: white;
+    --text-color: primary-text-color;
   }
   ha-card.no_card{
     background-color: transparent;

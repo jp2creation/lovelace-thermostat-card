@@ -155,7 +155,7 @@ export function cssData(user) {
   .dial {
     user-select: none;
   
-    --thermostat-off-fill: #000000c2;
+    --thermostat-off-fill: transparent;
     --thermostat-path-color: rgba(255, 255, 255, 0.3);
     --thermostat-path-active-color: rgba(255, 255, 255, 0.8);
     --thermostat-path-active-color-large: rgba(255, 255, 255, 1);

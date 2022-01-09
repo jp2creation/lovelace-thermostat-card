@@ -63,4 +63,4 @@ Search for Thermostat Card
 | ambient_temperature | string | optional | An entity id of a sensor to use as `ambient_temperature` instead of the one provided by the thermostat
 
 ## Credits
-<a href="https://codepen.io/dalhundal">@dalhundal</a>
+JP2Création

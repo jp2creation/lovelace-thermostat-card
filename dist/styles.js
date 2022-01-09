@@ -15,7 +15,7 @@ export function cssData(user) {
     --dry_color: #efbd07;
     --idle_color: #808080;
     --unknown_color: #bac;
-    --text-color: var(--primary-text-color);
+    --text-color: var(--primary-color);
   }
   ha-card.no_card{
     background-color: transparent;
@@ -83,7 +83,7 @@ export function cssData(user) {
     transform: translate(-50%, -50%);
     width: 14%;
     height: 14%;
-    --background-color: var(--primary-text-color);
+    --background-color: var(--primary-color);
   }
   .modes, .mode_color{
     position: absolute;
@@ -112,7 +112,7 @@ export function cssData(user) {
     left: 45%;
     backdrop-filter: blur(6px) grayscale(50%);
     box-shadow: 0px 0px 10px 0px #696969;
-    border: 1px solid var(--primary-text-color);
+    border: 1px solid var(--primary-color);
   }
   .dialog span {
     width:33%;
@@ -159,7 +159,7 @@ export function cssData(user) {
     --thermostat-path-color: rgba(255, 255, 255, 0.3);
     --thermostat-path-active-color: rgba(255, 255, 255, 0.8);
     --thermostat-path-active-color-large: rgba(255, 255, 255, 1);
-    --thermostat-text-color: var(--primary-text-color);
+    --thermostat-text-color: var(--primary-color);
   }
   
   .dial.has-thermo .dial__ico__leaf {
